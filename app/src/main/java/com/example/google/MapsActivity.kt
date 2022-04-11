@@ -167,7 +167,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         googlePlaceUrl.append("?location=$latitude,$longitude")
         googlePlaceUrl.append("&radius=1000")
         googlePlaceUrl.append("&type=$typeplace")
-        googlePlaceUrl.append("&key=AIzaSyCs90L0_FyaqStFp4vSmLpHXaJoYBcyBKc")
+        googlePlaceUrl.append("&key=)
         Log.d("URL_DEBUG",googlePlaceUrl.toString())
         return googlePlaceUrl.toString()
 
